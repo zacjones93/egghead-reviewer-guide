@@ -1,0 +1,20 @@
+{
+  "name": "egghead-reviewer-guide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gitbook serve",
+    "build": "gitbook build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "gitbook-cli": "^2.3.0",
+    "gitbook-plugin-advanced-emoji": "^0.2.1",
+    "gitbook-plugin-hints": "^1.0.1",
+    "gitbook-plugin-prism": "^1.0.0"
+  }
+}
