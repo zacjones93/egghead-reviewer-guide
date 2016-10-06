@@ -1,3 +1,36 @@
-###Introduction
+# Egghead Lesson Review ![egghead](https://d1xwtr0qwr70yv.cloudfront.net/assets/elements/logo-mobile-0012236aa1a9766db6b0cc9705df19ec.svg) 
 
-This will be the intro to the guide.
+Video training content goes stale. egghead.io should be as up to date as possible when it comes to content. Because of the nature of video we need to monitor each lesson on multiple levels.
+
+## Lesson Video
+An excellent coding screencast will focus on core concepts and have the ability to remain “evergreen” through minor revisions of the library that it is demonstrating. We need to continue to monitor this to make sure that it is the case.
+
+When differences exist we can take several courses of action:
+
+* update the code sample and use comments in the code to notify the user that it has changed from the video
+* Annotate the lesson’s page to tell the student what is wrong with the lesson
+* Replace the lesson video/code with an updated version
+* mark the lesson as obsolete/deprecated 
+* record a new version (vs replacement)
+
+### Update Lesson Code Sample
+
+This is the most common action taken by the reviewer. The lesson code sample should reflect the current version(s) for the libraries it is demonstrating (libraries are updated often!). The sample code can correct for minor differences in the code demonstrated in the lesson video, noting with comments when this has been done.
+
+### Annotate the lesson page
+
+When there is some significant breaking difference in the lesson video and code sample, we can create a notification to be displayed prominently on the lesson page. This notification comes in the form of an `errata` which is shown below:
+
+![Errata Example](../images/errata-example.png)
+
+### Replace the lesson video/code
+
+If the lesson still has significant value conceptually, we can re-record the lesson and produce an updated code sample. We want to do this for popular lessons and maintain our SEO.
+
+### Mark as obsolete
+
+Like Annotation above, but **more deadly**! :skull:
+
+### Record a new lesson
+
+Sometimes we will want to record a new lesson that presents the underlying concept with the updated version instead of replacing it in-place
